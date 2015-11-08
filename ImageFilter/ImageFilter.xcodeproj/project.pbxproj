@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEBA471E1BEEB0F600342758 /* libopencv_highgui.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBA471D1BEEB0F600342758 /* libopencv_highgui.2.4.9.dylib */; };
-		DEBA47201BEEB18C00342758 /* libopencv_core.2.4.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBA471F1BEEB18C00342758 /* libopencv_core.2.4.9.dylib */; };
 		DEDE2FDD1BEEA97600F947FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEDE2FDC1BEEA97600F947FA /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +23,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DEBA471D1BEEB0F600342758 /* libopencv_highgui.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.9.dylib; path = ../../../../../../../usr/local/lib/libopencv_highgui.2.4.9.dylib; sourceTree = "<group>"; };
-		DEBA471F1BEEB18C00342758 /* libopencv_core.2.4.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.9.dylib; path = ../../../../../../../usr/local/lib/libopencv_core.2.4.9.dylib; sourceTree = "<group>"; };
 		DEDE2FD91BEEA97600F947FA /* ImageFilter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageFilter; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDE2FDC1BEEA97600F947FA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,27 +32,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBA471E1BEEB0F600342758 /* libopencv_highgui.2.4.9.dylib in Frameworks */,
-				DEBA47201BEEB18C00342758 /* libopencv_core.2.4.9.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEBA471C1BEEB06D00342758 /* OpenCV */ = {
-			isa = PBXGroup;
-			children = (
-				DEBA471F1BEEB18C00342758 /* libopencv_core.2.4.9.dylib */,
-				DEBA471D1BEEB0F600342758 /* libopencv_highgui.2.4.9.dylib */,
-			);
-			name = OpenCV;
-			sourceTree = "<group>";
-		};
 		DEDE2FD01BEEA97600F947FA = {
 			isa = PBXGroup;
 			children = (
-				DEBA471C1BEEB06D00342758 /* OpenCV */,
 				DEDE2FDB1BEEA97600F947FA /* ImageFilter */,
 				DEDE2FDA1BEEA97600F947FA /* Products */,
 			);
