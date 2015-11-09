@@ -63,8 +63,12 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "$(HOME)/Documents/GIT/AR_VR/ComputerVision/filter/PA1/balloon.jpg"
+            argument = "$(HOME)/Documents/GIT/AR_VR/ComputerVision/imageProcess/filter/PA1/balloonGrayNoisy.jpg"
             isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "$(HOME)/Documents/GIT/AR_VR/ComputerVision/imageProcess/filter/PA1/balloon.jpg"
+            isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
       <AdditionalOptions>
